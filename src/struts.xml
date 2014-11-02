@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+	<package name="struts2" extends="struts-default" namespace="/">
+		<action name="login" class="cn.edu.njut.action.LoginAction">
+		</action>
+		
+		<action name="curriculum" class="cn.edu.njut.action.CurriculumAction">
+		</action>
+		
+		<action name="evaluation" class="cn.edu.njut.action.EvaluationAction">
+		</action>
+		
+		<action name="fetchscore" class="cn.edu.njut.action.FetchScoreAction">
+		</action>
+		
+		<action name="changepassword" class="cn.edu.njut.action.ChangePasswordAction">
+		</action>
+		
+		<action name="feedback" class="cn.edu.njut.action.FeedBackAction">
+		</action>
+		
+		<action name="checkmessage" class="cn.edu.njut.action.CheckMessageAction">
+		</action>
+		
+		<action name="fetchfeedback" class="cn.edu.njut.action.FetchFeedbackAction">
+		</action>
+		
+		<action name="allscore" class="cn.edu.njut.action.AllScoreAction">
+		</action>
+		
+		<action name="allyearscore" class="cn.edu.njut.action.AllYearScoreAction">
+		</action>
+		
+		<action name="alltermscore" class="cn.edu.njut.action.AllTermScoreAction">
+		</action>
+		
+		<action name="summary" class="cn.edu.njut.action.SummaryAction">
+		</action>
+		
+		<action name="fetchteacherreply" class="cn.edu.njut.action.FetchTeacherReplyAction">
+		</action>
+		
+		<action name="senddeviceinfo" class="cn.edu.njut.action.SendDeviceInfoAction">
+		</action>
+		
+		<action name="deletedeviceinfo" class="cn.edu.njut.action.DeleteDeviceInfoAction">
+		</action>
+		
+		<action name="infostream" class="cn.edu.njut.action.InfoStreamAction">
+		</action>
+		
+		<action name="like" class="cn.edu.njut.action.LikeAction">
+		</action>
+		
+		<action name="comment" class="cn.edu.njut.action.CommentAction">
+		</action>
+		
+		<action name="newnotification" class="cn.edu.njut.action.NewNotificationAction">
+		</action>
+		
+		<action name="infodetail" class="cn.edu.njut.action.InfoDetailAction">
+		</action>
+		
+		<action name="pushnotification" class="cn.edu.njut.action.PushNotification">
+		</action>
+		
+		<action name="spit" class="cn.edu.njut.action.SpitAction">
+		</action>
+		
+		<action name="advice" class="cn.edu.njut.action.AdviceAction">
+		</action>
+		
+		<action name="spitstream" class="cn.edu.njut.action.SpitStreamAction">
+		</action>
+		
+		<action name="advicestream" class="cn.edu.njut.action.AdviceStreamAction">
+		</action>
+		
+		<action name="advicelike" class="cn.edu.njut.action.AdviceLikeAction">
+		</action>
+		
+		<action name="advicecomment" class="cn.edu.njut.action.AdviceCommmentAction">
+		</action>
+		
+		<action name="adviceinfodetail" class="cn.edu.njut.action.AdviceInfoDetailAction">
+		</action>
+		
+		<action name="infodetailadvice" class="cn.edu.njut.action.InfoDetailAdviceAction">
+		</action>
+		 <!-- 
+		<action name="config" class="cn.edu.njut.action.Config">
+		</action>
+		  -->
+		 
+		<!-- ............TEACHER............ -->
+		
+		<action name="teacherlogin" class="cn.edu.njut.action.TeacherLoginAction">
+		</action>
+		
+		<action name="fetchcurriculum" class="cn.edu.njut.action.FetchCurriculumAction">
+		</action>
+		
+		<action name="fetchspit" class="cn.edu.njut.action.FetchSpitAction">
+		</action>
+		
+		<action name="fetchadvice" class="cn.edu.njut.action.FetchAdviceAction">
+		</action>
+		
+		<action name="teacherreply" class="cn.edu.njut.action.TeacherReplyAction">
+		</action>
+		
+		<action name="teacherreplyadvice" class="cn.edu.njut.action.TeacherReplyAdviceAction">
+		</action>
+		
+		<action name="teacherinfodetail" class="cn.edu.njut.action.TeacherInfoDetailAction">
+		</action>
+		
+		<action name="teacherinfodetailadvice" class="cn.edu.njut.action.TeacherInfoDetailAdviceAction">
+		</action>
+		
+		<action name="teacherchangepassword" class="cn.edu.njut.action.TeacherChangePasswordAction">
+		</action>
+		
+		<action name="fetchinfocard" class="cn.edu.njut.action.InfocardAction">
+		</action>
+		
+		<action name="fetchinfocardstream" class="cn.edu.njut.action.InfoCardStreamAction">
+		</action>
+	</package>
+	<!-- 
+	<package name="json" extends="json-default" namespace="/json">
+		<action name="login" class="cn.edu.njut.action.LoginAction">
+			<result type="json">
+				
+			</result>
+		</action>
+		
+		<action name="curriculum" class="cn.edu.njut.action.CurriculumAction">
+			
+		</action>
+		
+		<action name="evaluation" class="cn.edu.njut.action.EvaluationAction">
+			
+		</action>
+	</package>
+	 -->
+</struts>    
